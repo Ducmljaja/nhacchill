@@ -513,12 +513,31 @@ const song = [
         view: 7129,
         love: false
     },
-     {
+     
+    {
         id: 57,
         name: 'Sory Bae',
         idSinger: [17],
         path: 'access/audio/MR. SIRO  Sorry Babe  Official Lyric.mp3',
         image: 'access/image/img square/sory.jpg',
+        view: 7129,
+        love: false
+    },
+    {
+        id: 58,
+        name: 'ADAMN x TRÌNH',
+        idSinger: [9,18],
+        path: 'access/audio/NGHE BÀI TRÌNH CHƯA - ADAMN x TRÌNH.mp3',
+        image: 'access/image/img square/hieu2.png',
+        view: 7129,
+        love: false
+    },
+    {
+        id: 59,
+        name: 'TRÌNH',
+        idSinger: [9],
+        path: 'access/audio/HIEUTHUHAI - TRÌNH (prod. by Kewtiie).mp3',
+        image: 'access/image/img square/trinh.jpg',
         view: 7129,
         love: false
     },
@@ -559,7 +578,7 @@ const album = [
         idSinger: 9,
         like: 2000,
         day: '02/9/2022',
-        idSong: [34,35,36,37]
+        idSong: [34,35,36,37,58,59]
     },
     {
         id: 4,
@@ -673,6 +692,11 @@ const artist = [
         id: 17,
         image: 'access/image/img square/siro.jpg',
         name: 'MR Siro',
+    },
+     {
+        id: 18,
+        image: 'access/image/img square/binh.jpg',
+        name: 'Bình Gold',
     },
 ]
 
